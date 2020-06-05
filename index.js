@@ -22,10 +22,10 @@ function writeCards(a, b){
 
 
 writeCards(['Lisa', 'Kaitlin', 'Jan'], "surprise" );
-// function  countDown(a){
-// while(i!==0){
-//     i--
-//     console.log(i)
-//   }
-// }
-// console.log(countDown(10))
+ function  countDown(d){
+    while(i>=0){
+       i--
+      console.log(i)
+   }
+ }
+console.log(countDown(10))
