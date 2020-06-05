@@ -24,7 +24,7 @@ function writeCards(a, b){
 writeCards(['Lisa', 'Kaitlin', 'Jan'], "surprise" );
  function  countDown(d){
    
-    for(var i = d;i>0;i--){
+    for(var i = d;i>=0;i--){
        
       console.log(i)
    }
