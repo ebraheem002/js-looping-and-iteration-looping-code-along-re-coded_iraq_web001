@@ -6,17 +6,17 @@
 
 
 
-   let persons =[]
 
 function writeCards(a, b){
-  
+     let persons =[]
+
   for(var i=0; i<a.length ; i++){
  
     a.push('Thank you, '+a[i]+', for the wonderful '+b+' gift!');
 
   }
-  // console.log(persons)
-  return a
+  console.log(persons)
+  return persons
 }
 
 
