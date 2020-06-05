@@ -12,7 +12,7 @@ function writeCards(a, b){
 
   for(var i=0; i<a.length ; i++){
  
-    a.push('Thank you, '+a[i]+', for the wonderful '+b+' gift!');
+    persons.push('Thank you, '+a[i]+', for the wonderful '+b+' gift!');
 
   }
   console.log(persons)
